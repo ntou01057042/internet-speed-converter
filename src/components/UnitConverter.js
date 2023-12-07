@@ -9,7 +9,7 @@ const UnitConverter = ({ handleInputChange, inputValue }) => (
         onChange={handleInputChange}
         className="input-number"
         min="0"
-        value="0"
+        placeholder="0"
       />
     </div>
     <span className="angle-icon fa-2x" style={{ marginTop: 30 }}>
